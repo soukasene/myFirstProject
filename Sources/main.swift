@@ -7,7 +7,7 @@ let router = Router()
 
 router.get("/") {
    request, response, next in
-   response.send("Hello, World!")
+   response.send("Hello Team, Let's rule the World!")
    next()
 }
 
