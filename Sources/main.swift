@@ -5,7 +5,7 @@ HeliumLogger.use()
 
 let router = Router()
 
-router.get("/") {
+router.get("/hello") {
    request, response, next in
    response.send("Hello Team, Let's rule the World!")
    next()
